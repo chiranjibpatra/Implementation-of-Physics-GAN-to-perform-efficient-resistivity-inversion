@@ -1,5 +1,5 @@
 # Implementation-of-Physics-GAN-to-perform-efficient-resistivity-inversion
-**Summary (within 350 words):**
+**Summary:**
 
 Geophysical inversion is a key technique in subsurface exploration, converting observed geophysical data into interpretable models of underground properties. This study focuses specifically on *resistivity inversion*, which is widely used in areas such as mineral exploration, groundwater evaluation, and environmental monitoring. Traditional inversion approaches—such as least-squares and Occam’s inversion—often face limitations due to the ill-posed nature of the problem, high computational demands, and sensitivity to noise in the data.
 To overcome these challenges, this research introduces a novel framework that incorporates **physics-based Generative Adversarial Networks (GANs)** into the resistivity inversion process. Unlike standard GANs, the proposed method integrates **physical constraints** into the network’s architecture. This ensures that the generated subsurface models remain consistent with known geophysical laws, improving both the realism and accuracy of the results.
